@@ -6,7 +6,7 @@ def creer_pile() -> list:
         >>> creer_pile()
         []
     """
-    pass
+    return []
 
 def est_vide(p:"pile") -> bool:
     """
@@ -17,7 +17,8 @@ def est_vide(p:"pile") -> bool:
         >>> est_vide(p)
         True
     """
-    pass
+    return p == []
+
 
 def empiler(p:"pile", v:"ELT") -> None:
     """
